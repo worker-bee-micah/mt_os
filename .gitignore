@@ -1,0 +1,8 @@
+#do not track these files with the versioning system
+
+*.log
+build/
+temp-*
+.env
+00_mt_git_cheat_sheet.ipynb
+#!echo "Do not tie coconuts to swallows" >> coconuts.txt
