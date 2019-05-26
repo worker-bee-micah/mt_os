@@ -9,7 +9,7 @@ This repository contains notebooks that will assist with installation and config
 
 **Raspbian**
 
-The notebook [00_mt_raspian_admin.ipynb}{'https://nbviewer.jupyter.org/github/worker-bee-micah/mt_os/blob/master/00_mt_raspbian_admin_notebook.ipynb'} contains commands that can run in the browser and creates the rasbian.md which can be viewed in a browser if IPython is not installed on your system.
+The notebook [00_mt_raspian_admin.ipynb](https://nbviewer.jupyter.org/github/worker-bee-micah/mt_os/blob/master/00_mt_raspbian_admin_notebook.ipynb) contains commands that can run in the browser and creates the rasbian.md which can be viewed in a browser if IPython is not installed on your system.
 
 The default operating system for Raspberry Pi that is a Debian based destribution.
 Additional settings are needed after installing onto the Pi in order to read and write from the GPIO ports.  You will need to enable i2c, SPI, SSH, and SERIAL. 
@@ -24,7 +24,7 @@ Disable L2 cache, designed to be used by the GPU alone.
 disable_l2cache=1 #  turn back on with a zero.
 
 
-Networking for the Raspberry Pi as a server for sensor arrays begins with this [notebook]{'https://nbviewer.jupyter.org/github/worker-bee-micah/mt_os/blob/master/00_mt_os_networking.ipynb'}
+Networking for the Raspberry Pi as a server for sensor arrays begins with this [notebook](https://nbviewer.jupyter.org/github/worker-bee-micah/mt_os/blob/master/00_mt_os_networking.ipynb)
 You should be able to use OpenSSH to control the RPi that interfaces with the sensor array(s). This RPi will produce a local data set and also a push to a web facing API.
 
 
