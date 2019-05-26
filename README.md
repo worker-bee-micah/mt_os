@@ -24,7 +24,7 @@ Disable L2 cache, designed to be used by the GPU alone.
 disable_l2cache=1 #  turn back on with a zero.
 
 
-Networking for the Raspberry Pi as a server for sensor arrays begins with this [notebook](https://nbviewer.jupyter.org/github/worker-bee-micah/mt_os/blob/master/00_mt_os_networking.ipynb)
+Networking for the Raspberry Pi as a server for sensor arrays begins with this [notebook]('placeholder')
 You should be able to use OpenSSH to control the RPi that interfaces with the sensor array(s). This RPi will produce a local data set and also a push to a web facing API.
 
 
